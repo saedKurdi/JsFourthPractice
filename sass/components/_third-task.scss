@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: white;
+}
+
+.football-field{
+    position: relative;
+    background-image: url('../../images/FOOTBALL_FIELD.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.football-ball{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
